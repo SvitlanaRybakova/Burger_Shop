@@ -1,10 +1,10 @@
-@import "colors";
+@import 'colors';
 
 .orderDetails {
   background-color: $pink;
   width: 100%;
-
-  > main {
+  border: 1px solid red;
+   > main {
     background-color: white;
     max-width: 900px;
     margin: auto;
@@ -13,7 +13,7 @@
     > h1 {
       text-transform: uppercase;
       text-align: center;
-      font: 100 3rem "Roboto";
+      font: 100 3rem 'Roboto';
       margin: 3rem;
     }
 
